@@ -1,0 +1,81 @@
+/* Mobile S */
+@media all and (max-width: 767px) {
+  .container {
+    width: 100%;
+    gap: 30px;
+    padding: 8px 15px;
+  }
+  header .title {
+    font-size: 75px;
+    line-height: 74px;
+  }
+  .menu_top .title {
+    font-size: 22px;
+  }
+  .menu_top .title .info {
+    font-size: 12px;
+  }
+  .menu_top .price {
+    font-size: 18px;
+  }
+  .menu_bottom .description {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  section {
+    gap: 20px;
+  }
+  .section_bottom {
+    gap: 20px;
+  }
+  .section_bottom .info_wrap {
+    font-size: 11px;
+    line-height: 14px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  header .title {
+    font-size: 58px;
+    line-height: 62px;
+  }
+  .menu_top {
+    margin-bottom: 5px;
+  }
+  .menu_top .title {
+    font-size: 18px;
+  }
+  .menu_top .price {
+    font-size: 16px;
+  }
+  .menu_bottom .description {
+    width: 100%;
+  }
+  .section_bottom {
+    gap: 25px;
+  }
+  .btn_pay {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+/* Mobile E */
+
+/* Foldable S */
+@media all and (max-width: 380px) {
+  header .title {
+    font-size: 45px;
+    line-height: 48px;
+  }
+  .section_bottom .info_wrap {
+    align-items: unset;
+    justify-content: unset;
+    flex-direction: column;
+    font-size: 10px;
+    line-height: 13px;
+  }
+  .section_bottom .notice {
+    margin-top: 15px;
+  }
+}
+/* Foldable E */

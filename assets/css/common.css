@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+html,
+body {
+  background-color: #206030;
+  color: #000000;
+  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 635px;
+  padding: 10px 20px;
+  background-color: #fffce5;
+  overflow-y: auto;
+}
+header .title {
+  transform: rotate(-3deg);
+  color: #125122;
+  font-size: 98px;
+  font-family: 'Shrikhand', serif;
+  font-weight: 400;
+  line-height: 104px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.menu_list_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.menu_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu_top .title {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 26px;
+}
+.menu_top .title .info {
+  padding-left: 5px;
+  font-size: 13px;
+}
+.menu_top .price {
+  font-size: 22px;
+}
+.menu_bottom .description {
+  width: 250px;
+  font-size: 13px;
+  line-height: 17px;
+}
+.section_bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.section_bottom .info_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+}
+.section_bottom .notice {
+  text-align: right;
+}
+.btn_pay {
+  align-self: center;
+  padding: 12px 16px;
+  border-radius: 30px;
+  background-color: #125122;
+  text-align: center;
+  color: #fffce5;
+  font-size: 16px;
+  font-weight: 600;
+}
